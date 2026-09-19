@@ -9,45 +9,41 @@ Selain monitoring kondisi sensor, sistem juga menyediakan informasi status peran
 ✨ Fitur
 
 🔐 Authentication
-a. Login menggunakan Firebase Authentication.
-b. Sistem membedakan akses pengguna berdasarkan proses autentikasi.
-c. Informasi akun pengguna ditampilkan pada dashboard.
+- Login menggunakan Firebase Authentication.
+- Sistem membedakan akses pengguna berdasarkan proses autentikasi.
+- Informasi akun pengguna ditampilkan pada dashboard.
 
 📡 Monitoring ESP32
-a. Menampilkan status koneksi ESP32.
-b. Menampilkan waktu terakhir ESP32 mengirimkan data (Last Seen).
-c. ESP32 dianggap online apabila masih mengirimkan heartbeat dalam interval yang ditentukan.
+- Menampilkan status koneksi ESP32.
+- Menampilkan waktu terakhir ESP32 mengirimkan data (Last Seen).
+- ESP32 dianggap online apabila masih mengirimkan heartbeat dalam interval yang ditentukan.
 
 📏 Monitoring Sensor Ultrasonik
-a. Membaca jarak objek secara realtime.
-b. Menampilkan status sensor:
-   - Terdeteksi
-   - Tidak Terdeteksi
-c. Menampilkan jarak objek dalam satuan centimeter (cm).
+- Membaca jarak objek secara realtime.
+- Menampilkan status sensor; Terdeteksi atau Tidak Terdeteksi
+- Menampilkan jarak objek dalam satuan centimeter (cm).
 
 🚨 Sistem Keamanan
-a. Mendeteksi perubahan kondisi sensor.
-b. Mengaktifkan status keamanan ketika objek/pergerakan terdeteksi.
-c. Monitoring status buzzer.
-d. Monitoring status lampu indikator.
-e. Menampilkan status gudang:
-   - AMAN
-   - BAHAYA
+- Mendeteksi perubahan kondisi sensor.
+- Mengaktifkan status keamanan ketika objek/pergerakan terdeteksi.
+- Monitoring status buzzer.
+- Monitoring status lampu indikator.
+- Menampilkan status gudang; AMAN atau BAHAYA
 
 📊 Dashboard Realtime
-a. Monitoring data secara realtime melalui Firebase.
-b. Menampilkan grafik jarak objek terhadap waktu deteksi.
-c. Menampilkan jumlah deteksi.
-d. Menampilkan deteksi terakhir.
-e. Menampilkan activity log sistem.
+- Monitoring data secara realtime melalui Firebase.
+- Menampilkan grafik jarak objek terhadap waktu deteksi.
+- Menampilkan jumlah deteksi.
+- Menampilkan deteksi terakhir.
+- Menampilkan activity log sistem.
 
 ⚙️ System Control
 
 Administrator dapat:
 
-a. Mengaktifkan sistem keamanan.
-b. Menonaktifkan sistem keamanan.
-c. Melihat status sistem secara realtime.
+- Mengaktifkan sistem keamanan.
+- Menonaktifkan sistem keamanan.
+- Melihat status sistem secara realtime.
 
 Alur Sistem
 
@@ -82,14 +78,14 @@ Project ini dikembangkan oleh:
 
 📌 Project Information
 
-a. Project: Sistem Keamanan Gudang Berbasis IoT
-b. Platform: Web + IoT
-c. Microcontroller: ESP32
-d. Database: Firebase Realtime Database
-e. Authentication: Firebase Authentication
-f. Frontend: HTML, CSS, JavaScript
-g. Backend: Node.js + Express.js
-h. Visualization: Chart.js
+- Project: Sistem Keamanan Gudang Berbasis IoT
+- Platform: Web + IoT
+- Microcontroller: ESP32
+- Database: Firebase Realtime Database
+- Authentication: Firebase Authentication
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js + Express.js
+- Visualization: Chart.js
 
 📄 License
 
