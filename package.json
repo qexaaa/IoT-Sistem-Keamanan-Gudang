@@ -1,0 +1,16 @@
+{
+  "name": "iot---sistem-keamanan-gudang",
+  "version": "1.0.0",
+  "description": "Sistem Keamanan Gudang",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
